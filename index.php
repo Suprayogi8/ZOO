@@ -54,8 +54,8 @@ session_start()
         <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
             <div class="d-flex justify-content-center">
                 <div class="text-center">
-                    <h1 class="mx-auto my-0 text-uppercase">ZOOPEDIA</h1>
-                    <h2 class="text-white-50 mx-auto mt-2 mb-5">Selamat datang di kebun binatang online</h2>
+                    <h1 class="mx-auto my-0 text-uppercase">LokaZoo</h1>
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5">Selamat datang di website pemesanan tiket</h2>
                     <a class="btn btn-primary" href="#about">Get Started</a>
                 </div>
             </div>
@@ -66,10 +66,9 @@ session_start()
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-lg-8">
-                    <h2 class="text-white mb-4">Apasih Zoopedia ???</h2>
+                    <h2 class="text-white mb-4">Apasih LokaZoo ???</h2>
                     <p class="text-white-50">
-                        Zoopedia merupakan aplikasi yang berisikan klasifikasi dari hewan-hewan yang ada di kebun binatang. Jadi sebelum dateng
-                        ke kebun binatang kita kalian bisa liat-liat dulu nih hewan apa yang ada di kebun binatang kita, bisa dilihat dibawah ini yahhh
+                        LokaZoo merupakan sebuah website yang memberikan kemudahan bagi pengunjung untuk memesan tiket secara online
                     </p>
                     <!-- <br><br><br><br><br><br><br><br><br><br> -->
                 </div>
