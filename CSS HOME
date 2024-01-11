@@ -1,107 +1,151 @@
-/* Reset some default styles */
-body,
-h1,
-h2,
-h3,
-p {
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    font-family: 'Nunito', sans-serif;
-    font-size: 16px;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f8f9fa; /* Set your desired background color */
+  font-family: sans-serif;
+  color: #333;
+  background-color: #fff;
 }
 
-a {
-    color: #007bff; /* Set your desired link color */
-    text-decoration: none;
+/* Hero Section */
+
+.hero-section {
+  height: 500px;
+  background-image: url("assets/img/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
-a:hover {
-    color: #0056b3; /* Set your desired link hover color */
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.8) 100%);
 }
 
-.container {
-    max-width: 1200px;
-    margin-right: auto;
-    margin-left: auto;
+/* Animal Card */
+
+.animal-card {
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
 }
 
-/* Navigation styles */
+.animal-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.5s ease-in-out;
+}
+
+.animal-card:hover img {
+  transform: scale(1.1);
+}
+
+.animal-card h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.animal-card p {
+  line-height: 1.5;
+  color: #666;
+}
+
+/* Navbar */
+
 .navbar {
-    background-color: #fff; /* Set your desired navbar background color */
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.navbar-brand,
-.navbar-nav a {
-    color: #333; /* Set your desired navbar text color */
+.navbar-brand {
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.navbar-toggler {
-    border-color: #333; /* Set your desired navbar toggler color */
+.navbar-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-/* Masthead styles */
-.masthead {
-    height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('your-background-image.jpg') center/cover no-repeat; /* Set your desired background image and styles */
-    color: #fff;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.navbar-nav li a {
+  padding: 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: #666;
+  transition: color 0.3s ease-in-out;
 }
 
-.masthead h1 {
-    font-size: 3rem;
+.navbar-nav li a.active {
+  color: #000;
+  font-weight: bold;
 }
 
-.masthead h2 {
-    font-size: 1.5rem;
+.navbar-nav li a:hover {
+  color: #333;
 }
 
-/* About section styles */
-.about-section {
-    padding: 80px 0;
+/* Animal Table */
+
+.animal-table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
-/* Projects section styles */
-.projects-section {
-    padding: 80px 0;
+.animal-table th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
 }
 
-/* Signup section styles */
-.signup-section {
-    padding: 80px 0;
+.animal-table th {
+  font-weight: bold;
 }
 
-/* Footer styles */
-.footer {
-    padding: 20px 0;
-    background-color: #000; /* Set your desired footer background color */
+@media only screen and (max-width: 768px) {
+  .animal-table {
+    display: block;
+    overflow-x: scroll;
+  }
+  .animal-table th, td {
+    display: block;
+  }
+  .animal-table th {
+    float: left;
+    width: 50%;
+  }
+  .animal-table td {
+    float: right;
+    width: 50%;
+  }
 }
 
-/* Button styles */
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 1rem;
-    text-align: center;
-    text-transform: uppercase;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
+/* Button Pesan Tiket */
+
+.signup-button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
 }
 
-.btn-primary {
-    background-color: #007bff; /* Set your desired primary button color */
-    color: #fff;
-}
-
-.btn-primary:hover {
-    background-color: #0056b3; /* Set your desired primary button hover color */
+.signup-button:hover {
+  background-color: #333;
 }
