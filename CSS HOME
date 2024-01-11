@@ -1,0 +1,166 @@
+body {
+  font-family: sans-serif;
+  color: #333;
+  background-color: #fff;
+}
+
+.header {
+  background-color: #000;
+  height: 60px;
+  padding: 10px;
+  color: #fff;
+}
+
+.header-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.header-nav {
+  float: right;
+}
+
+.header-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-nav li {
+  float: left;
+  padding: 0 10px;
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-nav a:hover {
+  color: #ccc;
+}
+
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  height: 50px;
+  padding: 10px;
+}
+
+.navbar-brand {
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  float: right;
+}
+
+.navbar-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-nav li {
+  float: left;
+  padding: 0 10px;
+}
+
+.navbar-nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+.navbar-nav a:hover {
+  color: #ccc;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+}
+
+.about-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.about-paragraph {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.projects-section {
+  padding: 50px 0;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projects-item {
+  width: 33.33%;
+  margin: 0 1.66%;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.projects-item img {
+  width: 100%;
+}
+
+.projects-item h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.projects-item p {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.signup-section {
+  padding: 50px 0;
+}
+
+.signup-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.signup-item {
+  width: 33.33%;
+  margin: 0 1.66%;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.signup-item h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.signup-item form {
+  margin-top: 20px;
+}
+
+.signup-item form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.signup-item form button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
