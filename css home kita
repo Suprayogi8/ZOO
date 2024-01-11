@@ -1,0 +1,65 @@
+/* Add your custom dynamic styles here */
+
+/* Navbar styles */
+.navbar {
+    background-color: var(--navbar-bg);
+}
+
+.navbar-brand img {
+    max-width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.navbar-brand h1 {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+
+.navbar-nav a {
+    color: var(--link-color);
+    transition: color 0.3s ease;
+}
+
+.navbar-nav a:hover {
+    color: var(--link-hover-color);
+}
+
+/* About section styles */
+.about-section h1 {
+    color: var(--primary-color);
+}
+
+/* Facts section styles */
+.facts i {
+    color: var(--primary-color);
+}
+
+.facts h1 {
+    color: #fff; /* Text color for counter */
+}
+
+/* Footer styles */
+.footer {
+    background-color: var(--footer-bg);
+    color: #fff;
+}
+
+/* Back to Top button styles */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-to-top:hover {
+    background-color: #0056b3; /* Adjust the hover color */
+}
