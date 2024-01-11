@@ -1,166 +1,107 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-  font-family: sans-serif;
-  color: #333;
-  background-color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa; /* Set your desired background color */
 }
 
-.header {
-  background-color: #000;
-  height: 60px;
-  padding: 10px;
-  color: #fff;
+a {
+    color: #007bff; /* Set your desired link color */
+    text-decoration: none;
 }
 
-.header-title {
-  font-size: 20px;
-  font-weight: bold;
+a:hover {
+    color: #0056b3; /* Set your desired link hover color */
 }
 
-.header-nav {
-  float: right;
+.container {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-.header-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.header-nav li {
-  float: left;
-  padding: 0 10px;
-}
-
-.header-nav a {
-  text-decoration: none;
-  color: #fff;
-}
-
-.header-nav a:hover {
-  color: #ccc;
-}
-
+/* Navigation styles */
 .navbar {
-  background-color: #fff;
-  border-bottom: 1px solid #ccc;
-  height: 50px;
-  padding: 10px;
+    background-color: #fff; /* Set your desired navbar background color */
 }
 
-.navbar-brand {
-  float: left;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.navbar-nav {
-  float: right;
-}
-
-.navbar-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.navbar-nav li {
-  float: left;
-  padding: 0 10px;
-}
-
+.navbar-brand,
 .navbar-nav a {
-  text-decoration: none;
-  color: #000;
+    color: #333; /* Set your desired navbar text color */
 }
 
-.navbar-nav a:hover {
-  color: #ccc;
+.navbar-toggler {
+    border-color: #333; /* Set your desired navbar toggler color */
 }
 
+/* Masthead styles */
+.masthead {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('your-background-image.jpg') center/cover no-repeat; /* Set your desired background image and styles */
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.masthead h1 {
+    font-size: 3rem;
+}
+
+.masthead h2 {
+    font-size: 1.5rem;
+}
+
+/* About section styles */
 .about-section {
-  padding: 50px;
-  text-align: center;
+    padding: 80px 0;
 }
 
-.about-title {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.about-paragraph {
-  font-size: 16px;
-  line-height: 20px;
-}
-
+/* Projects section styles */
 .projects-section {
-  padding: 50px 0;
+    padding: 80px 0;
 }
 
-.projects-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.projects-item {
-  width: 33.33%;
-  margin: 0 1.66%;
-  padding: 20px;
-  background-color: #fff;
-  border: 1px solid #ccc;
-}
-
-.projects-item img {
-  width: 100%;
-}
-
-.projects-item h4 {
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.projects-item p {
-  font-size: 16px;
-  line-height: 20px;
-}
-
+/* Signup section styles */
 .signup-section {
-  padding: 50px 0;
+    padding: 80px 0;
 }
 
-.signup-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+/* Footer styles */
+.footer {
+    padding: 20px 0;
+    background-color: #000; /* Set your desired footer background color */
 }
 
-.signup-item {
-  width: 33.33%;
-  margin: 0 1.66%;
-  padding: 20px;
-  background-color: #fff;
-  border: 1px solid #ccc;
+/* Button styles */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
 }
 
-.signup-item h2 {
-  font-size: 18px;
-  font-weight: bold;
+.btn-primary {
+    background-color: #007bff; /* Set your desired primary button color */
+    color: #fff;
 }
 
-.signup-item form {
-  margin-top: 20px;
-}
-
-.signup-item form input {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-}
-
-.signup-item form button {
-  background-color: #000;
-  color: #fff;
-  padding: 10px;
-  border: none;
-  cursor: pointer;
+.btn-primary:hover {
+    background-color: #0056b3; /* Set your desired primary button hover color */
 }
